@@ -1,0 +1,149 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+.container{
+    background-color: hsl(219, 30%, 18%);
+    width: auto;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 35px;
+   
+    
+}
+
+/* HEADER */
+
+
+.header{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.header li{
+    
+    display: inline;
+    margin-right: 60px;
+}
+
+.header li a{
+    text-decoration: none;
+    text-transform: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    
+}
+
+/*BODY HEADER*/
+
+
+.img{
+    margin-left: 60px;
+}
+
+.main-image{
+    display: flex; 
+    justify-content: center;
+
+}
+
+.title{ /*FALTA ARRUMAR AQUI*/
+    padding-left: 350px;
+    padding-right: 350px;
+    
+}
+
+.title p{
+    font-weight: 700;
+    text-align: center;
+    color:  hsl(0, 0%, 100%);
+    font-size: 2em;
+}
+
+.text{
+    padding-top: 40px;
+    padding-left: 410px;
+    padding-right: 410px;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+    text-align: center;
+    color:  hsl(0, 0%, 100%);
+    font-size: 1em;
+    padding-bottom: 40px;
+}
+
+.body-header {
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+
+.button{
+    display: flex; 
+    justify-content: center;
+  
+}
+#button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 17%;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to left, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 50px; 
+    justify-content: center;
+}
+
+/* BODY */
+
+.body{
+    background-color: hsl(218, 28%, 13%);
+    height: 100vh;
+    
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon1, .icon3{
+    padding-right: 100px;
+}
+.icon2, .icon4{
+    padding-left: 100px;
+}
+
+.icon2{
+    margin-bottom: 95px;
+}
+.icon p, h3{
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+.icon p{
+    font-weight: 400 !important;
+}
